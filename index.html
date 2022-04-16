@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Google</title>
+</head>
+
+<body class="bg-[#202124]">
+    <div>
+        <header class="p-2 text-white text-sm">
+            <ul class="flex items-center justify-end gap-4 w-100">
+                <li class="cursor-pointer">
+                    Gmail</li>
+                <li class="cursor-pointer">Images</li>
+                <li class="text-2xl  pl-1 pr-1 bg-transparent rounded-full hover:bg-[#303134] cursor-pointer">
+                    <i class='bx bxs-grid'></i>
+                </li>
+                <li class="text-4xl  pl-xl pr-xl bg-transparent rounded-full hover:bg-[#303134] cursor-pointer">
+                    <i class='bx bxs-user-circle'></i>
+                </li>
+            </ul>
+        </header>
+        <main class="flex flex-col items-center justify-center h-[800px]">
+            <div class="text-white flex flex-col items-center justify-center p-6">
+                <h1 class="text-8xl font-medium mb-10">Google</h1>
+                <form class="border border-[#303134] rounded-full flex items-center hover:bg-[#303134]">
+                    <i class='bx bx-search p-4 text-gray-500'></i>
+                    <!-- <label>Search</label> -->
+                    <input class="w-[487px]  h-[34px] bg-transparent focus:outline-none" type="text" name="search"
+                        placeholder="">
+                    <i class='bx bxs-microphone p-4 text-gray-500 cursor-pointer'></i>
+                </form>
+                <div class="text-sm p-6 flex gap-4  md:p-12 md:gap-8">
+                    <button
+                        class="rounded bg-[#303134] px-4 py-2 border border-transparent hover:border-gray-500">Google
+                        Search</button>
+                    <button class="rounded bg-[#303134] px-4 py-2 border border-transparent hover:border-gray-500">I'm
+                        Feeling
+                        Lucky</button>
+                </div>
+                <ul class="flex gap-2 text-sm">
+                    <li>Google offered in:</li>
+                    <li class="text-[#4a93f8] cursor-pointer">हिन्दी</li>
+                    <li class="text-[#4a93f8] cursor-pointer">বাংলা</li>
+                    <li class="text-[#4a93f8] cursor-pointer">తెలుగు</li>
+                    <li class="text-[#4a93f8] cursor-pointer">मराठी</li>
+                    <li class="text-[#4a93f8] cursor-pointer">தமிழ்</li>
+                    <li class="text-[#4a93f8] cursor-pointer">ગુજરાતી</li>
+                    <li class="text-[#4a93f8] cursor-pointer">ಕನ್ನಡ</li>
+                    <li class="text-[#4a93f8] cursor-pointer">മലയാളം</li>
+                    <li class="text-[#4a93f8] cursor-pointer">ਪੰਜਾਬੀ</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="text-white text-sm text-[#9aa0a6] bg-[#171717]">
+            <div class="border border-b-[#303134] border-t-transparent border-l-transparent border-r-transparent">
+                <ul class="flex px-8 py-3">
+                    <li>India</li>
+                </ul>
+            </div>
+            <!-- <hr class="text-gray-500"> -->
+            <div class="flex justify-between">
+                <ul class="flex px-8 py-3 gap-4">
+                    <li class="cursor-pointer">About</li>
+                    <li class="cursor-pointer">Advertising</li>
+                    <li class="cursor-pointer">Business</li>
+                    <li class="cursor-pointer">How Search Works</li>
+                </ul>
+                <ul class="flex px-8 py-3 gap-4">
+                    <li class="cursor-pointer">Privacy</li>
+                    <li class="cursor-pointer">Terms</li>
+                    <li class="cursor-pointer">Settings</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
